@@ -732,7 +732,7 @@ def build_full_docx():
     r = p_git.add_run("GitHub Repository: ")
     r.bold = True
     r.font.size = Pt(9.5)
-    r2 = p_git.add_run("https://github.com/kirteexh/FSD_5th.Exp")
+    r2 = p_git.add_run("https://github.com/kirteexh/FSD_Exp5")
     r2.font.size = Pt(9.5)
 
     p_pm = doc.add_paragraph()
